@@ -12,7 +12,7 @@ max_val = 51.43   # in dB
 
 
 
-num_samples = 10000 # will be equal to number of events run in the SEAMCAT simulation approx.
+num_samples = 10000 # will be equal to number of events run in the SEAMCAT simulation approximately.
 sinr_values = np.random.normal(loc=mean, scale=std_dev, size=num_samples)
 
 
